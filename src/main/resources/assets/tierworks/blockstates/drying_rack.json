@@ -1,0 +1,56 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "tierworks:block/empty"
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "part_x": "0",
+        "part_y": "0",
+        "part_z": "0"
+      },
+      "apply": {
+        "model": "tierworks:block/drying_rack"
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "part_x": "0",
+        "part_y": "0",
+        "part_z": "0"
+      },
+      "apply": {
+        "model": "tierworks:block/drying_rack",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "part_x": "0",
+        "part_y": "0",
+        "part_z": "0"
+      },
+      "apply": {
+        "model": "tierworks:block/drying_rack",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "part_x": "0",
+        "part_y": "0",
+        "part_z": "0"
+      },
+      "apply": {
+        "model": "tierworks:block/drying_rack",
+        "y": 270
+      }
+    }
+  ]
+}
